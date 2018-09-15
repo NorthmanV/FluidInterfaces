@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		879CB1962147091B00DA8200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879CB1952147091B00DA8200 /* AppDelegate.swift */; };
-		879CB1982147091B00DA8200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879CB1972147091B00DA8200 /* ViewController.swift */; };
 		879CB19B2147091B00DA8200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879CB1992147091B00DA8200 /* Main.storyboard */; };
 		879CB19D2147091E00DA8200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879CB19C2147091E00DA8200 /* Assets.xcassets */; };
 		879CB1A02147091E00DA8200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879CB19E2147091E00DA8200 /* LaunchScreen.storyboard */; };
+		8D78E9102147A67A00CA0B6A /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E90F2147A67A00CA0B6A /* MenuTableViewController.swift */; };
+		8D78E9122147A98000CA0B6A /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9112147A97F00CA0B6A /* Interface.swift */; };
+		8D78E9142147AC7A00CA0B6A /* CalculatorButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9132147AC7A00CA0B6A /* CalculatorButtonViewController.swift */; };
+		8D78E9162147AE5800CA0B6A /* FluidCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9152147AE5800CA0B6A /* FluidCell.swift */; };
+		8D78E9182147B3A300CA0B6A /* SpringAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9172147B3A300CA0B6A /* SpringAnimationViewController.swift */; };
+		8D78E91A2147B58F00CA0B6A /* FlashlightButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9192147B58F00CA0B6A /* FlashlightButtonViewController.swift */; };
+		8D78E91E2147B8F900CA0B6A /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E91D2147B8F900CA0B6A /* CalculatorButton.swift */; };
+		8D78E9212147BCD700CA0B6A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9202147BCD700CA0B6A /* UIColorExtension.swift */; };
+		8D78E9232147C84500CA0B6A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9222147C84500CA0B6A /* UIViewExtension.swift */; };
+		8D78E9272148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9262148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift */; };
+		8D78E9292148F08C00CA0B6A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9282148F08C00CA0B6A /* SliderView.swift */; };
+		8D78E92B21493DAA00CA0B6A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E92A21493DAA00CA0B6A /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		879CB1922147091B00DA8200 /* FluidInterfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidInterfaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879CB1952147091B00DA8200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		879CB1972147091B00DA8200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		879CB19A2147091B00DA8200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		879CB19C2147091E00DA8200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		879CB19F2147091E00DA8200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		879CB1A12147091E00DA8200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D78E90F2147A67A00CA0B6A /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		8D78E9112147A97F00CA0B6A /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		8D78E9132147AC7A00CA0B6A /* CalculatorButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonViewController.swift; sourceTree = "<group>"; };
+		8D78E9152147AE5800CA0B6A /* FluidCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidCell.swift; sourceTree = "<group>"; };
+		8D78E9172147B3A300CA0B6A /* SpringAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimationViewController.swift; sourceTree = "<group>"; };
+		8D78E9192147B58F00CA0B6A /* FlashlightButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButtonViewController.swift; sourceTree = "<group>"; };
+		8D78E91D2147B8F900CA0B6A /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		8D78E9202147BCD700CA0B6A /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8D78E9222147C84500CA0B6A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8D78E9262148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISpringTimingParametersExtension.swift; sourceTree = "<group>"; };
+		8D78E9282148F08C00CA0B6A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		8D78E92A21493DAA00CA0B6A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +77,64 @@
 			isa = PBXGroup;
 			children = (
 				879CB1952147091B00DA8200 /* AppDelegate.swift */,
-				879CB1972147091B00DA8200 /* ViewController.swift */,
+				8D78E91B2147B88500CA0B6A /* Menu */,
+				8D78E91C2147B89E00CA0B6A /* Calculator Button */,
+				8D78E924214806CE00CA0B6A /* Spring Animation */,
+				8D78E9252148089800CA0B6A /* Flashlight Button */,
+				8D78E91F2147BC8200CA0B6A /* Utilities */,
 				879CB1992147091B00DA8200 /* Main.storyboard */,
 				879CB19C2147091E00DA8200 /* Assets.xcassets */,
 				879CB19E2147091E00DA8200 /* LaunchScreen.storyboard */,
 				879CB1A12147091E00DA8200 /* Info.plist */,
 			);
 			path = FluidInterfaces;
+			sourceTree = "<group>";
+		};
+		8D78E91B2147B88500CA0B6A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8D78E9112147A97F00CA0B6A /* Interface.swift */,
+				8D78E9152147AE5800CA0B6A /* FluidCell.swift */,
+				8D78E90F2147A67A00CA0B6A /* MenuTableViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8D78E91C2147B89E00CA0B6A /* Calculator Button */ = {
+			isa = PBXGroup;
+			children = (
+				8D78E9132147AC7A00CA0B6A /* CalculatorButtonViewController.swift */,
+				8D78E91D2147B8F900CA0B6A /* CalculatorButton.swift */,
+			);
+			path = "Calculator Button";
+			sourceTree = "<group>";
+		};
+		8D78E91F2147BC8200CA0B6A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8D78E9202147BCD700CA0B6A /* UIColorExtension.swift */,
+				8D78E92A21493DAA00CA0B6A /* GradientView.swift */,
+				8D78E9222147C84500CA0B6A /* UIViewExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8D78E924214806CE00CA0B6A /* Spring Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8D78E9172147B3A300CA0B6A /* SpringAnimationViewController.swift */,
+				8D78E9282148F08C00CA0B6A /* SliderView.swift */,
+				8D78E9262148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift */,
+			);
+			path = "Spring Animation";
+			sourceTree = "<group>";
+		};
+		8D78E9252148089800CA0B6A /* Flashlight Button */ = {
+			isa = PBXGroup;
+			children = (
+				8D78E9192147B58F00CA0B6A /* FlashlightButtonViewController.swift */,
+			);
+			path = "Flashlight Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879CB1982147091B00DA8200 /* ViewController.swift in Sources */,
+				8D78E9232147C84500CA0B6A /* UIViewExtension.swift in Sources */,
+				8D78E9272148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift in Sources */,
 				879CB1962147091B00DA8200 /* AppDelegate.swift in Sources */,
+				8D78E9162147AE5800CA0B6A /* FluidCell.swift in Sources */,
+				8D78E9142147AC7A00CA0B6A /* CalculatorButtonViewController.swift in Sources */,
+				8D78E9102147A67A00CA0B6A /* MenuTableViewController.swift in Sources */,
+				8D78E91A2147B58F00CA0B6A /* FlashlightButtonViewController.swift in Sources */,
+				8D78E9212147BCD700CA0B6A /* UIColorExtension.swift in Sources */,
+				8D78E9182147B3A300CA0B6A /* SpringAnimationViewController.swift in Sources */,
+				8D78E9292148F08C00CA0B6A /* SliderView.swift in Sources */,
+				8D78E92B21493DAA00CA0B6A /* GradientView.swift in Sources */,
+				8D78E9122147A98000CA0B6A /* Interface.swift in Sources */,
+				8D78E91E2147B8F900CA0B6A /* CalculatorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
