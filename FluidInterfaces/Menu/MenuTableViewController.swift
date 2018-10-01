@@ -10,10 +10,6 @@ import UIKit
 
 class MenuTableViewController: UITableViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Interface.shared.count
     }
@@ -38,8 +34,6 @@ class MenuTableViewController: UITableViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    
-
 }
 
 

@@ -103,32 +103,4 @@ class SliderView: UIView {
         slider.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 20).isActive = true
     }
     
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

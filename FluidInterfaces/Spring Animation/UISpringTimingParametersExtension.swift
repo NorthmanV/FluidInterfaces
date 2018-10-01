@@ -23,4 +23,3 @@ extension UISpringTimingParameters {
         self.init(mass: 1, stiffness: stiffness, damping: damp, initialVelocity: initialVelocity)
     }
 }
-

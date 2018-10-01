@@ -22,6 +22,7 @@ class CalculatorButtonViewController: UIViewController {
     }
     
     func setupUI() {
+        view.backgroundColor = .black
         view.addSubview(calculatorButton)
         calculatorButton.center(in: view)
     }

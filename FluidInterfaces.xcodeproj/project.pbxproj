@@ -23,6 +23,8 @@
 		8D78E9272148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9262148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift */; };
 		8D78E9292148F08C00CA0B6A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E9282148F08C00CA0B6A /* SliderView.swift */; };
 		8D78E92B21493DAA00CA0B6A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E92A21493DAA00CA0B6A /* GradientView.swift */; };
+		8D7A9C23216229230069535F /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C22216229230069535F /* FlashlightButton.swift */; };
+		8D7A9C2521624BD90069535F /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C2421624BD90069535F /* CGPointExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		8D78E9262148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISpringTimingParametersExtension.swift; sourceTree = "<group>"; };
 		8D78E9282148F08C00CA0B6A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		8D78E92A21493DAA00CA0B6A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8D7A9C22216229230069535F /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
+		8D7A9C2421624BD90069535F /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				8D78E9202147BCD700CA0B6A /* UIColorExtension.swift */,
 				8D78E92A21493DAA00CA0B6A /* GradientView.swift */,
 				8D78E9222147C84500CA0B6A /* UIViewExtension.swift */,
+				8D7A9C2421624BD90069535F /* CGPointExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				8D78E9192147B58F00CA0B6A /* FlashlightButtonViewController.swift */,
+				8D7A9C22216229230069535F /* FlashlightButton.swift */,
 			);
 			path = "Flashlight Button";
 			sourceTree = "<group>";
@@ -169,6 +175,7 @@
 				TargetAttributes = {
 					879CB1912147091B00DA8200 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -210,6 +217,7 @@
 			files = (
 				8D78E9232147C84500CA0B6A /* UIViewExtension.swift in Sources */,
 				8D78E9272148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift in Sources */,
+				8D7A9C2521624BD90069535F /* CGPointExtension.swift in Sources */,
 				879CB1962147091B00DA8200 /* AppDelegate.swift in Sources */,
 				8D78E9162147AE5800CA0B6A /* FluidCell.swift in Sources */,
 				8D78E9142147AC7A00CA0B6A /* CalculatorButtonViewController.swift in Sources */,
@@ -217,6 +225,7 @@
 				8D78E91A2147B58F00CA0B6A /* FlashlightButtonViewController.swift in Sources */,
 				8D78E9212147BCD700CA0B6A /* UIColorExtension.swift in Sources */,
 				8D78E9182147B3A300CA0B6A /* SpringAnimationViewController.swift in Sources */,
+				8D7A9C23216229230069535F /* FlashlightButton.swift in Sources */,
 				8D78E9292148F08C00CA0B6A /* SliderView.swift in Sources */,
 				8D78E92B21493DAA00CA0B6A /* GradientView.swift in Sources */,
 				8D78E9122147A98000CA0B6A /* Interface.swift in Sources */,
@@ -373,7 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akberovapps.FluidInterfaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -391,7 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akberovapps.FluidInterfaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
