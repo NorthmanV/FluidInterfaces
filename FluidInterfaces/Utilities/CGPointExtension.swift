@@ -2,7 +2,7 @@
 //  CGPointExtension.swift
 //  FluidInterfaces
 //
-//  Created by Nonamelab Nonamelab on 01.10.2018.
+//  Created by Руслан Акберов on 01.10.2018.
 //  Copyright © 2018 Ruslan Akberov. All rights reserved.
 //
 

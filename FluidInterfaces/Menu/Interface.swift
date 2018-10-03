@@ -17,7 +17,9 @@ struct Interface {
         return [
             Interface(name: "Calculator button", icon: #imageLiteral(resourceName: "icon_calc"), type: CalculatorButtonViewController.self),
             Interface(name: "Spring animation", icon: #imageLiteral(resourceName: "icon_spring"), type: SpringAnimationViewController.self),
-            Interface(name: "Flashlight button", icon: #imageLiteral(resourceName: "icon_flash"), type: FlashlightButtonViewController.self)
+            Interface(name: "Flashlight button", icon: #imageLiteral(resourceName: "icon_flash"), type: FlashlightButtonViewController.self),
+            Interface(name: "Rubberbanding", icon: #imageLiteral(resourceName: "icon_rubber"), type: RubberbandingViewController.self),
+            Interface(name: "Acceleration pausing", icon: #imageLiteral(resourceName: "icon_acceleration"), type: AccelerationViewController.self)
         ]
     }
 }

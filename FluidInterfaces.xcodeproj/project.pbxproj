@@ -25,6 +25,8 @@
 		8D78E92B21493DAA00CA0B6A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78E92A21493DAA00CA0B6A /* GradientView.swift */; };
 		8D7A9C23216229230069535F /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C22216229230069535F /* FlashlightButton.swift */; };
 		8D7A9C2521624BD90069535F /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C2421624BD90069535F /* CGPointExtension.swift */; };
+		8D7A9C28216349EB0069535F /* RubberbandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C27216349EB0069535F /* RubberbandingViewController.swift */; };
+		8D7A9C2A216366EA0069535F /* AccelerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C29216366EA0069535F /* AccelerationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		8D78E92A21493DAA00CA0B6A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		8D7A9C22216229230069535F /* FlashlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
 		8D7A9C2421624BD90069535F /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		8D7A9C27216349EB0069535F /* RubberbandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberbandingViewController.swift; sourceTree = "<group>"; };
+		8D7A9C29216366EA0069535F /* AccelerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				8D78E91C2147B89E00CA0B6A /* Calculator Button */,
 				8D78E924214806CE00CA0B6A /* Spring Animation */,
 				8D78E9252148089800CA0B6A /* Flashlight Button */,
+				8D7A9C26216348A50069535F /* Rubberbanding */,
+				8D7A9C2B216366F50069535F /* Accelertion */,
 				8D78E91F2147BC8200CA0B6A /* Utilities */,
 				879CB1992147091B00DA8200 /* Main.storyboard */,
 				879CB19C2147091E00DA8200 /* Assets.xcassets */,
@@ -141,6 +147,22 @@
 				8D7A9C22216229230069535F /* FlashlightButton.swift */,
 			);
 			path = "Flashlight Button";
+			sourceTree = "<group>";
+		};
+		8D7A9C26216348A50069535F /* Rubberbanding */ = {
+			isa = PBXGroup;
+			children = (
+				8D7A9C27216349EB0069535F /* RubberbandingViewController.swift */,
+			);
+			path = Rubberbanding;
+			sourceTree = "<group>";
+		};
+		8D7A9C2B216366F50069535F /* Accelertion */ = {
+			isa = PBXGroup;
+			children = (
+				8D7A9C29216366EA0069535F /* AccelerationViewController.swift */,
+			);
+			path = Accelertion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7A9C28216349EB0069535F /* RubberbandingViewController.swift in Sources */,
 				8D78E9232147C84500CA0B6A /* UIViewExtension.swift in Sources */,
 				8D78E9272148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift in Sources */,
 				8D7A9C2521624BD90069535F /* CGPointExtension.swift in Sources */,
@@ -228,6 +251,7 @@
 				8D7A9C23216229230069535F /* FlashlightButton.swift in Sources */,
 				8D78E9292148F08C00CA0B6A /* SliderView.swift in Sources */,
 				8D78E92B21493DAA00CA0B6A /* GradientView.swift in Sources */,
+				8D7A9C2A216366EA0069535F /* AccelerationViewController.swift in Sources */,
 				8D78E9122147A98000CA0B6A /* Interface.swift in Sources */,
 				8D78E91E2147B8F900CA0B6A /* CalculatorButton.swift in Sources */,
 			);

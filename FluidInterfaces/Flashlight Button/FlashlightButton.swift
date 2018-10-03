@@ -2,7 +2,7 @@
 //  FlashlightButton.swift
 //  FluidInterfaces
 //
-//  Created by Nonamelab Nonamelab on 01.10.2018.
+//  Created by Руслан Акберов on 01.10.2018.
 //  Copyright © 2018 Ruslan Akberov. All rights reserved.
 //
 
@@ -97,7 +97,6 @@ class FlashlightButton: UIControl {
         
         let cancelDistance: CGFloat = minWidth / 2 + 20
         
-        print(touch.location(in: self).distance(to: CGPoint(x: bounds.midX, y: bounds.midY)))
         guard touch.location(in: self).distance(to: CGPoint(x: bounds.midX, y: bounds.midY)) < cancelDistance else {
             // the touch has moved outside of the bounds of the button
             touchExited = true
