@@ -27,6 +27,10 @@
 		8D7A9C2521624BD90069535F /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C2421624BD90069535F /* CGPointExtension.swift */; };
 		8D7A9C28216349EB0069535F /* RubberbandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C27216349EB0069535F /* RubberbandingViewController.swift */; };
 		8D7A9C2A216366EA0069535F /* AccelerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9C29216366EA0069535F /* AccelerationViewController.swift */; };
+		8DB3B67A216DDAD200234389 /* MomentumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B679216DDAD200234389 /* MomentumViewController.swift */; };
+		8DB3B67C216DE13800234389 /* InstantPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B67B216DE13800234389 /* InstantPanGestureRecognizer.swift */; };
+		8DB3B67F216E19FD00234389 /* PipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B67E216E19FD00234389 /* PipViewController.swift */; };
+		8DB3B681216E1B3100234389 /* PipPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B680216E1B3100234389 /* PipPositionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		8D7A9C2421624BD90069535F /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 		8D7A9C27216349EB0069535F /* RubberbandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberbandingViewController.swift; sourceTree = "<group>"; };
 		8D7A9C29216366EA0069535F /* AccelerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationViewController.swift; sourceTree = "<group>"; };
+		8DB3B679216DDAD200234389 /* MomentumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumViewController.swift; sourceTree = "<group>"; };
+		8DB3B67B216DE13800234389 /* InstantPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		8DB3B67E216E19FD00234389 /* PipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipViewController.swift; sourceTree = "<group>"; };
+		8DB3B680216E1B3100234389 /* PipPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipPositionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,8 @@
 				8D78E9252148089800CA0B6A /* Flashlight Button */,
 				8D7A9C26216348A50069535F /* Rubberbanding */,
 				8D7A9C2B216366F50069535F /* Accelertion */,
+				8DB3B678216DDA8200234389 /* Momentum */,
+				8DB3B67D216E186C00234389 /* Facetime Picture in Picture */,
 				8D78E91F2147BC8200CA0B6A /* Utilities */,
 				879CB1992147091B00DA8200 /* Main.storyboard */,
 				879CB19C2147091E00DA8200 /* Assets.xcassets */,
@@ -126,6 +136,7 @@
 				8D78E92A21493DAA00CA0B6A /* GradientView.swift */,
 				8D78E9222147C84500CA0B6A /* UIViewExtension.swift */,
 				8D7A9C2421624BD90069535F /* CGPointExtension.swift */,
+				8D78E9262148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -135,7 +146,6 @@
 			children = (
 				8D78E9172147B3A300CA0B6A /* SpringAnimationViewController.swift */,
 				8D78E9282148F08C00CA0B6A /* SliderView.swift */,
-				8D78E9262148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift */,
 			);
 			path = "Spring Animation";
 			sourceTree = "<group>";
@@ -163,6 +173,24 @@
 				8D7A9C29216366EA0069535F /* AccelerationViewController.swift */,
 			);
 			path = Accelertion;
+			sourceTree = "<group>";
+		};
+		8DB3B678216DDA8200234389 /* Momentum */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3B679216DDAD200234389 /* MomentumViewController.swift */,
+				8DB3B67B216DE13800234389 /* InstantPanGestureRecognizer.swift */,
+			);
+			path = Momentum;
+			sourceTree = "<group>";
+		};
+		8DB3B67D216E186C00234389 /* Facetime Picture in Picture */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3B67E216E19FD00234389 /* PipViewController.swift */,
+				8DB3B680216E1B3100234389 /* PipPositionView.swift */,
+			);
+			path = "Facetime Picture in Picture";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,11 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB3B67A216DDAD200234389 /* MomentumViewController.swift in Sources */,
 				8D7A9C28216349EB0069535F /* RubberbandingViewController.swift in Sources */,
 				8D78E9232147C84500CA0B6A /* UIViewExtension.swift in Sources */,
 				8D78E9272148EDAD00CA0B6A /* UISpringTimingParametersExtension.swift in Sources */,
 				8D7A9C2521624BD90069535F /* CGPointExtension.swift in Sources */,
 				879CB1962147091B00DA8200 /* AppDelegate.swift in Sources */,
+				8DB3B67F216E19FD00234389 /* PipViewController.swift in Sources */,
 				8D78E9162147AE5800CA0B6A /* FluidCell.swift in Sources */,
 				8D78E9142147AC7A00CA0B6A /* CalculatorButtonViewController.swift in Sources */,
 				8D78E9102147A67A00CA0B6A /* MenuTableViewController.swift in Sources */,
@@ -250,8 +280,10 @@
 				8D78E9182147B3A300CA0B6A /* SpringAnimationViewController.swift in Sources */,
 				8D7A9C23216229230069535F /* FlashlightButton.swift in Sources */,
 				8D78E9292148F08C00CA0B6A /* SliderView.swift in Sources */,
+				8DB3B67C216DE13800234389 /* InstantPanGestureRecognizer.swift in Sources */,
 				8D78E92B21493DAA00CA0B6A /* GradientView.swift in Sources */,
 				8D7A9C2A216366EA0069535F /* AccelerationViewController.swift in Sources */,
+				8DB3B681216E1B3100234389 /* PipPositionView.swift in Sources */,
 				8D78E9122147A98000CA0B6A /* Interface.swift in Sources */,
 				8D78E91E2147B8F900CA0B6A /* CalculatorButton.swift in Sources */,
 			);
