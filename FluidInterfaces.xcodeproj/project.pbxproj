@@ -31,6 +31,7 @@
 		8DB3B67C216DE13800234389 /* InstantPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B67B216DE13800234389 /* InstantPanGestureRecognizer.swift */; };
 		8DB3B67F216E19FD00234389 /* PipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B67E216E19FD00234389 /* PipViewController.swift */; };
 		8DB3B681216E1B3100234389 /* PipPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B680216E1B3100234389 /* PipPositionView.swift */; };
+		8DB3B684216F273400234389 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3B683216F273400234389 /* RotationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		8DB3B67B216DE13800234389 /* InstantPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPanGestureRecognizer.swift; sourceTree = "<group>"; };
 		8DB3B67E216E19FD00234389 /* PipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipViewController.swift; sourceTree = "<group>"; };
 		8DB3B680216E1B3100234389 /* PipPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipPositionView.swift; sourceTree = "<group>"; };
+		8DB3B683216F273400234389 /* RotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				8D7A9C2B216366F50069535F /* Accelertion */,
 				8DB3B678216DDA8200234389 /* Momentum */,
 				8DB3B67D216E186C00234389 /* Facetime Picture in Picture */,
+				8DB3B682216F271100234389 /* Rotation */,
 				8D78E91F2147BC8200CA0B6A /* Utilities */,
 				879CB1992147091B00DA8200 /* Main.storyboard */,
 				879CB19C2147091E00DA8200 /* Assets.xcassets */,
@@ -191,6 +194,14 @@
 				8DB3B680216E1B3100234389 /* PipPositionView.swift */,
 			);
 			path = "Facetime Picture in Picture";
+			sourceTree = "<group>";
+		};
+		8DB3B682216F271100234389 /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3B683216F273400234389 /* RotationViewController.swift */,
+			);
+			path = Rotation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				8D7A9C2A216366EA0069535F /* AccelerationViewController.swift in Sources */,
 				8DB3B681216E1B3100234389 /* PipPositionView.swift in Sources */,
 				8D78E9122147A98000CA0B6A /* Interface.swift in Sources */,
+				8DB3B684216F273400234389 /* RotationViewController.swift in Sources */,
 				8D78E91E2147B8F900CA0B6A /* CalculatorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

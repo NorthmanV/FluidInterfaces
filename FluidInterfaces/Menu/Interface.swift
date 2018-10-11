@@ -21,7 +21,8 @@ struct Interface {
             Interface(name: "Rubberbanding", icon: #imageLiteral(resourceName: "icon_rubber"), type: RubberbandingViewController.self),
             Interface(name: "Acceleration pausing", icon: #imageLiteral(resourceName: "icon_acceleration"), type: AccelerationViewController.self),
             Interface(name: "Rewarding momentum", icon: #imageLiteral(resourceName: "icon_momentum"), type: MomentumViewController.self),
-            Interface(name: "Facetime pip", icon: #imageLiteral(resourceName: "icon_pip"), type: PipViewController.self)
+            Interface(name: "Facetime pip", icon: #imageLiteral(resourceName: "icon_pip"), type: PipViewController.self),
+            Interface(name: "Rotation", icon: #imageLiteral(resourceName: "icon_rotation"), type: RotationViewController.self),
         ]
     }
 }
